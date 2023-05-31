@@ -211,6 +211,18 @@ body.nav-active {
 img {
   height: auto;
 }
+.w-100 {
+  width: 100%;
+}
+.section-subtitle {
+  color: var(--text-majorelle-blue);
+  font-weight: var(--weight-medium);
+  text-transform: uppercase;
+}
+
+.section-title {
+  margin-block: 20px;
+}
 /*-----------------------------------*\
   #PRELOADER
 \*-----------------------------------*/
@@ -429,9 +441,7 @@ img {
   object-fit: cover;
   transition: var(--transition-2);
 }
-.w-100 {
-  width: 100%;
-}
+
 .hero .container {
   display: grid;
   gap: 150px;
@@ -491,10 +501,29 @@ img {
   #SERVICE
 \*-----------------------------------*/
 
+.service .container {
+  display: grid;
+  gap: 25px;
+}
 
+.service-card:nth-child(2) {
+  background: var(--bg-chrome-yellow-alpha-5);
+}
 
+.service-card:nth-child(3) {
+  background-color: var(--bg-red-salsa-alpha-5);
+}
+.service-card:nth-child(4) {
+  background: var(--bg-majorelle-blue-alpha-5);
+}
+.service-card {
+  padding: 25px 20px;
+  border-radius: var(--radius-20);
+}
 
-
+.service-card .card-title {
+  margin-block: 10px 5px;
+}
 /*-----------------------------------*\
   #DESTINATION
 \*-----------------------------------*/
